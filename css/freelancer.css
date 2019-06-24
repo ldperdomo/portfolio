@@ -161,13 +161,15 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  /*color: #1abc9c;*/
+  color: #4a84f0;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #117964;
+  /*color: #117964;*/
+  color: #4165a8;
   text-decoration: underline;
 }
 
@@ -2018,10 +2020,10 @@ pre code {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #fff;
   background-color: #fff;
   background-clip: padding-box;
-  border: 0.125rem solid #ced4da;
+  border: 0.125rem solid #ced4da;	
   border-radius: 0.5rem;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -2044,34 +2046,39 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #6bebd1;
+  border-color: #6bebd1;	
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.25);
   box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.25);
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #6c757d;
+  color: #2b2f33;
+	/*color: #fff;*/
   opacity: 1;
 }
 
 .form-control::-moz-placeholder {
-  color: #6c757d;
+  color: #2b2f33;
+	/*color: #fff;*/
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #6c757d;
+  color: #2b2f33;
+	/*color: #fff;*/
   opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #6c757d;
+  color: #2b2f33;
+	/*color: #fff;*/
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: #2b2f33;
+	/*color: #fff;*/
   opacity: 1;
 }
 
@@ -2615,8 +2622,9 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #4a84f0;
+	border-color: #4a84f0;
+  /*border-color: #1abc9c;*/
 }
 
 .btn-primary:hover {
@@ -2632,8 +2640,8 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #4a84f0; /*#1abc9c;*/
+  border-color: #4a84f0;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
@@ -6916,13 +6924,15 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  /*background-color: #1abc9c !important;*/
+	background-color: #4a84f0 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  /*background-color: #148f77 !important;*/
+	background-color: #4a84f0 !important;
 }
 
 .bg-secondary {
@@ -10373,11 +10383,12 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #1abc9c !important;
+  /*color: #1abc9c !important;*/
+	color: #4a84f0 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #117964 !important;
+  color: #117964 !important;	
 }
 
 .text-secondary {
@@ -10676,7 +10687,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  /*color: #1abc9c;*/
+	color: #4a84f0;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -10684,7 +10696,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  /*color: #1abc9c;*/
+	color: #4a84f0;
 }
 
 #mainNav .navbar-toggler {
@@ -10709,11 +10722,13 @@ a.text-dark:hover, a.text-dark:focus {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    /*background: #1abc9c;*/
+  	background: #4a84f0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    /*background: #1abc9c;*/
+  	background: #4a84f0;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -10857,7 +10872,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #1abc9c;
+  /*color: #1abc9c;*/
+	color: #fff;
 }
 
 form .row:first-child .floating-label-form-group {
